@@ -15,7 +15,6 @@ app.use(express.urlencoded({ extended: true }));
 // register view engine
 app.set('view engine', 'ejs');
 
-const dbURI = 'mongodb+srv://blog-ninja:lOnEeWE4GLmQVXDz@blog-ninja.hfroyx5.mongodb.net/?retryWrites=true&w=majority'
 mongoose.connect(dbURI)
     .then(result => app.listen(3000))
     .catch(err => console.log(err))
