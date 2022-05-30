@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <!-- <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> -->
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>sandbox</title>
+  </head>
+  <body>
+    <h1 class="py-3 text-center">sandbox</h1>
+   
+    <div class="container  py-2 col-8">
+      <form class="my-2">
+        <div class="form-group">
+          <label for="exampleInputEmail1">Add recipe</label>
+          <input type="text" class="form-control mt-2" id="recipe" aria-describedby="emailHelp" placeholder="Enter recipe...">
+          <button type="submit" class="btn btn-primary btn-small mt-2 mb-2">Add</button>
+        </div>
+
+        
+      </form>
+        <h2 class="text-center">Output:</h2>
+        <div class="wrapper">
+            
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Load Babel -->
+    <!-- <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script> -->
+    <!-- Your custom script here -->
+    <!-- <script type="text/babel">
+      const title = 'daniel callaghan'
+      const handleClick = () => {
+        console.log('click me')
+      }
+
+
+      const Banner = () => {
+        return (
+          <div>
+            <p>{title.charAt(0).toUpperCase()}{title.substring(1)}</p>
+            <p>Todays date is {new Date().toDateString()}</p>
+            <button onClick={handleClick}>Click me</button><span className='btn'></span>
+          </div>
+        )
+      }
+
+      ReactDOM.render(<Banner />, document.querySelector('.wrapper'))
+
+
+    
+    </script> -->
+      <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-firestore.js"></script>
+    <script type="module">
+      
+    </script>
+    <script src="sandbox.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
